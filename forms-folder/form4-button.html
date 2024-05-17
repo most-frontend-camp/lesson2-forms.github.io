@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset='UTF-8'/>
+    <title>Speaker Submission</title>
+    <link rel='stylesheet' href='../style.css'/>
 </head>
 <body>
+<header class='speaker-form-header'>
+    <h1>Speaker Submission</h1>
+    <p><em>Want to speak at our fake conference? Fill out
+        this form.</em></p>
+    <a href="../index.html">Home</a><br />
+</header>
+
+<div>
+    <form action='' method='get' class='speaker-form'>
+        <br>
+
+        <div class='form-row'>
+            <label class='checkbox-label' for='available'>
+                <input id='available'
+                       name='available'
+                       type='checkbox'
+                       value='is-available'/>
+                <span>I’m actually available the date of the talk</span>
+            </label>
+        </div>
+
+        <br><button type="submit">Submit</button>
+    </form>
+</div>
+
+
+
+<footer class="speaker-form-footer">
+    <p>Author: Central Eurasian Venture Forum 2024</p>
+    <p><a href="mailto:hege@example.com">most@hub.space</a></p>
+
+</footer>
 
 </body>
 </html>

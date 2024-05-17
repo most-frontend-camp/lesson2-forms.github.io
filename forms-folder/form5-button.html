@@ -16,23 +16,19 @@
 <div>
     <form action='' method='get' class='speaker-form'>
         <br>
-        <fieldset class='legacy-form-row'>
-            <legend>Type of Talk</legend>
-            <input id='talk-type-1'
-                   name='talk-type'
-                   type='radio'
-                   value='main-stage' />
-            <label for='talk-type-1' class='radio-label'>Main Stage</label>
-            <br>
-            <input id='talk-type-2'
-                   name='talk-type'
-                   type='radio'
-                   value='workshop'
-                   checked />
-            <label for='talk-type-2' class='radio-label'>Workshop</label>
-        </fieldset>
 
-        <br><button type="submit">Submit</button>
+        <div class='form-row'>
+            <label class='checkbox-label' for='available'>
+                <input id='available'
+                       name='available'
+                       type='checkbox'
+                       value='is-available'/>
+                <span>I’m actually available the date of the talk</span>
+            </label>
+        </div>
+        <div class='form-row'>
+            <button>Submit</button>
+        </div>
     </form>
 </div>
 
